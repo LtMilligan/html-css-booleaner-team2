@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+main {
+    margin-left: 10px;
+}
+
+header {
+    background-color: cadetblue;
+    background-image: url(../img/pattern.png);
+    height: 100px;
+    width: auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#logo_booleaner {
+    width: 200px;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.yellow_text {
+    background-color: yellow;
+}
+
+.cyan_text {
+    color: rgb(0, 110, 255);
+}
+
+.tiny_font {
+    font-size: 13px;
+}
+
+.main_section {
+    margin-top: 20px;
+}
+
+#title {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#main_img {
+    margin-top: 20px;
+}
+
+#main_list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cyan_bg {
+    background-color: rgb(0, 110, 255);
+}
+
+.azzurro_bg {
+    background-color: aqua;
+}
+
+.white_text {
+    color: white;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.size_half {
+    width: 50%;
+}
+
+footer {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: gray;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+}
+
+.picture {
+    width: 250px;
+    height: 200px;
+    margin: 10px 0px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
