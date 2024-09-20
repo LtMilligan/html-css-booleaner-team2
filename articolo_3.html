@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articolo 3</title>
+</head>
+<body>
+    <main class="container my-5"></main>
+        <div class="row">
+            <div class="col-lg-8">
+                <section class="mb-5">
+                    <h2>Cos'è la Programmazione ad Oggetti?</h2>
+                    <p>La programmazione ad oggetti (Object-Oriented Programming, OOP) è un paradigma di programmazione che utilizza oggetti e classi per organizzare il codice. Invece di focalizzarsi solo sulle funzioni e la logica, la OOP organizza il software attorno a entità autonome chiamate "oggetti".</p>
+                    <p>Gli oggetti rappresentano entità del mondo reale e contengono attributi (proprietà) e metodi (funzioni) per interagire con questi attributi.</p>
+                </section>
+                <section class="mb-5">
+                    <h2>Principi Fondamentali della OOP</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Incapsulamento</h5>
+                                    <p class="card-text">L'incapsulamento è il concetto di racchiudere dati e metodi all'interno di un oggetto, limitando l'accesso diretto ai dati e proteggendoli da modifiche esterne.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ereditarietà</h5>
+                                    <p class="card-text">L'ereditarietà consente di creare nuove classi basate su classi esistenti, permettendo il riutilizzo del codice e la creazione di gerarchie tra oggetti.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Polimorfismo</h5>
+                                    <p class="card-text">Il polimorfismo permette agli oggetti di essere trattati come istanze delle loro classi base, semplificando il codice e migliorandone la flessibilità.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mb-5">
+                    <h2>Vantaggi della Programmazione ad Oggetti</h2>
+                    <ul>
+                        <li><strong>Riutilizzo del Codice:</strong> Grazie all'ereditarietà, è possibile riutilizzare il codice esistente, riducendo la duplicazione.</li>
+                        <li><strong>Modularità:</strong> Ogni oggetto rappresenta un modulo indipendente, facilitando la manutenzione e la modifica del codice.</li>
+                        <li><strong>Manutenibilità:</strong> La separazione tra dati e logica rende più semplice il debug e l'aggiornamento del software.</li>
+                    </ul>
+                </section>
+
+                <section class="mb-5">
+                    <h2>Esempio di Codice</h2>
+                    <pre class="bg-light p-3"><code>
+class Animale {
+    public $nome;
+    public $specie;
+
+    public function __construct($nome, $specie) {
+        $this->nome = $nome;
+        $this->specie = $specie;
+    }
+
+    public function descrivi() {
+        return "Questo è un {$this->specie} e si chiama {$this->nome}.";
+    }
+}
+
+$gatto = new Animale("Whiskers", "gatto");
+echo $gatto->descrivi();
+                    </code></pre>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="fst-italic">Cos'è la OOP?</h4>
+                    <p class="mb-0">Un paradigma di programmazione che organizza il codice attorno agli oggetti piuttosto che alle funzioni.</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
