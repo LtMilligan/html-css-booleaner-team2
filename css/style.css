@@ -14,7 +14,7 @@ main {
 
 header {
     background-color: cadetblue;
-    background-image: url(../img/pattern.png);
+    /* background-image: url(../img/pattern.png); */
     height: 100px;
     width: auto;
     background-position: center;
@@ -106,4 +106,29 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
+}
+
+/* Parte di Simone per l'header */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.header {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.header .highlight {
+    color: #ffdc5e;
 }
